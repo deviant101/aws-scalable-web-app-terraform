@@ -39,7 +39,7 @@
 
 # User data script for web servers
 data "template_file" "user_data" {
-  template = file("${path.module}/../UserdataScript-phase-3-enhanced.sh")
+  template = file("${path.module}/../UserdataScript-phase-3.sh")
 }
 
 # Launch Template for Auto Scaling
